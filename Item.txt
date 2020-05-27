@@ -1,0 +1,49 @@
+A0
+Potion
+A pretty good healing potion cabable of healing 50 of your HP.
+--
+Healing
+50
+0
+A1
+Strength Amulet
+makes you stronger when you wear it.
+--
+Weapon
+0
+10
+A3
+Diamond Crown
+A crown fit for a King or Queen.
+--
+Weapon
+0
+0
+A5
+Pure Bow
+"A bow that radiates powerful energy."
+--
+Weapon
+0
+15
+A6
+Bow upgrade
+Makes your pure bow significantly stronger.
+--
+Weapon
+0
+35
+A7
+Anti-dragon charm
+When in the player's inventory the player with receive 50% less damage from dragons.
+--
+Tradeable
+0
+0
+A11
+Ruby
+a pink to blood-red colored gemstone.
+--
+Tradeable
+0
+0

@@ -1,0 +1,18 @@
+M1
+Black Dragon
+A fierce dragon! VERY DANGEROUS
+100
+35
+Diamond Crown
+M2
+Evil Wizard
+Uses evil magic to fight.
+50
+20
+Strength Amulet
+M3
+Skeleton
+Spooky bones held together through a spell.
+25
+15
+Potion

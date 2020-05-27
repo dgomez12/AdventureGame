@@ -1,0 +1,66 @@
+1
+Room 1
+Room 2 is to the east, Room 6 is to the south, Room 5 is to the west, and Room 4 is to the north.
+--
+north 4
+east 2
+south 6
+west 5
+null
+Pure bow
+Skeleton
+2
+Room 2
+Room 1 is to your west and Room 3 is to your north.
+--
+north 3
+east -1
+south -1
+west 1
+puzzle 2
+Potion
+null
+3
+Room 3
+Room 2 is to your south and Room 4 is to your west.
+--
+north -1
+east -1
+south 2
+west 4
+null
+null
+Black Dragon
+4
+Room 4
+Room 3 is to your east and Room 1 is to your south.
+--
+north -1
+east 3
+south 1
+west -1
+null
+null
+Evil Wizard
+5
+Room 5
+Room 1 is to your east.
+--
+north -1
+east 1
+south -1
+west -1
+puzzle1
+null
+null
+6
+Room 6
+Room 1 is to your north.
+--
+north 1
+east -1
+south -1
+west -1
+puzzle3
+null
+null
