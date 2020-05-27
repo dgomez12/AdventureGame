@@ -58,8 +58,6 @@ public class Controller {
 				userInput = userInput + " " + scan.next();
 			}
 		}
-//		userInput = combined[1];
-//		System.out.println(command + " " + userInput);
 		if(command.equalsIgnoreCase("examine")) {
 			examineItem(userInput);
 		}else if(command.equalsIgnoreCase("pickup")) {
@@ -94,8 +92,6 @@ public class Controller {
 		file = new File("Room.txt");
 		scan = new Scanner(file);
 		while (scan.hasNextLine()) {
-			//System.out.println(scan.nextLine());
-			
 			Room x = new Room();
 			String roomNumber = scan.nextLine();
 			x.setRoomNumber(roomNumber);
@@ -103,12 +99,6 @@ public class Controller {
 			String roomName = scan.nextLine();
 			x.setRoomName(roomName);
 			
-//			String desc = "";
-//			String buffer = "--";
-//			while (scan.nextLine()!=buffer) {
-//				desc += scan.nextLine();
-//			}
-//			x.setRoomDescription(desc);
 			String desc = scan.nextLine();
 			x.setRoomDescription(desc);
 			
@@ -163,27 +153,17 @@ public class Controller {
 		while (scan.hasNextLine()) {
 			Item x = new Item();
 			String itemID = scan.nextLine();
-//			System.out.println(itemID + " id");
 			x.setItemID(itemID);
 			String itemName = scan.nextLine();
-//			System.out.println(itemName + " name");
 			x.setItemName(itemName);
-//			String itemDescription = "";
-//			while (!scan.nextLine().equals("--")) {
-//				itemDescription += scan.nextLine();
-//			}
 			String itemDescription = scan.nextLine();
-//			System.out.println(itemDescription + " desc");
 			x.setItemDescription(itemDescription);
 			scan.nextLine();
 			String itemType = scan.nextLine();
-//			System.out.println(itemType + " type");
 			x.setItemType(itemType);
 			String itemHealth = scan.nextLine();
-//			System.out.println(itemHealth + " hp");
 			x.setItemHealth(Integer.parseInt(itemHealth));
 			String itemStrength = scan.nextLine();
-//			System.out.println(itemStrength + " str");
 			x.setItemStrength(Integer.parseInt(itemStrength));
 			items.add(x);
 		}
@@ -195,22 +175,16 @@ public class Controller {
 		while(scan.hasNextLine()) {
 			Puzzle x = new Puzzle();
 			String puzzleID = scan.nextLine();
-//			System.out.println(puzzleID);
 			x.setPuzzleID(puzzleID);
 			String puzzleName = scan.nextLine();
-//			System.out.println(puzzleName);
 			x.setPuzzleName(puzzleName);
 			String puzzleDesc = scan.nextLine();
-//			System.out.println(puzzleDesc);
 			x.setPuzzleDescription(puzzleDesc);
 			String puzzleSolution = scan.nextLine();
-//			System.out.println(puzzleSolution);
 			x.setSolution(puzzleSolution);
 			String puzzleHint = scan.nextLine();
-//			System.out.println(puzzleHint);
 			x.setHint(puzzleHint);
 			String puzzleItem = scan.nextLine();
-//			System.out.println(puzzleItem);
 			puzzles.add(x);
 		}
 		puzzles.get(0).setItem(items.get(4));
@@ -218,7 +192,6 @@ public class Controller {
 	}
 
 	public void readMonsterFile() throws FileNotFoundException {
-//		monsters = new ArrayList<Monster>();
 		file = new File("Monster.txt");
 		scan = new Scanner(file);
 		while(scan.hasNextLine()) {
